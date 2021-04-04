@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    padding: 2rem 2rem;
+}
+
+.footer-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 14rem;
+}
+
+.footer-upper * {
+    flex: 1;
+}
+
+.footer-links {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.footer-link {
+    flex-grow: 0;
+    margin-bottom: 1rem;
+    padding: 0 4rem;
+}
+
+.footer-lower {
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+}

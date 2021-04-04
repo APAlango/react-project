@@ -1,15 +1,29 @@
 .navbar {
     display: flex;
     flex-flow: row nowrap;
-    flex-grow: 0;
     justify-content: space-between;
     padding-left: 10vw;
     padding-right: 10vw;
     margin-top: 2rem;
-    background-color: steelblue;
+    align-items: center;
 }
 
 .navbar-right {
+    align-items: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-right > div {
+    font-size: 0.9rem;
+}
+
+.navbar-list-item {
+    margin-right: 2em;
+}
+
+#community:after {
+    content: ' \02C5';
+    margin-right: 1em;
 }
