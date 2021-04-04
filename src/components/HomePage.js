@@ -1,10 +1,7 @@
 import '../styles/HomePage.css'
-import {useState} from "react/cjs/react.production.min";
+import TravelerCards from "./TravelerCards";
 
-const HomePage = (props) => {
-    const [travelers, setTravelers] = useState(props.travelers);
-    setTravelers(['Mary', 'John']);
-
+const HomePage = () => {
     return (
         <div className="homepage-wrapper">
             <div className="section">
@@ -62,9 +59,7 @@ const HomePage = (props) => {
                 <h1>
                     Join our worldwide community<br/>
                     of travelers
-                    {travelers.map(t => (
-                        <div>{t}</div>
-                    ))}
+                    <TravelerCards />
                 </h1>
                 <button className="button-blue button-round">Sign up</button>
             </div>
