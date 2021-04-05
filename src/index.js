@@ -4,14 +4,17 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import ErrorBoundary from './components/ErrorBoundary';
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ErrorBoundary>
-        <App />
-    </ErrorBoundary>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter>
+        <React.StrictMode>
+            <ErrorBoundary>
+                <App />
+            </ErrorBoundary>
+        </React.StrictMode>
+    </BrowserRouter>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
