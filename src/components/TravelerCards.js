@@ -3,9 +3,9 @@ import axios from 'axios';
 
 const TravelerCards = () => {
     const [error, setError] = useState(null);
-    const [isLoaded, setIsLoaded] = useState(true);//Kui ]nnestub fetchida travelerid ss peaks initial value false olema
+    const [isLoaded, setIsLoaded] = useState(true);//Should be initialized with true if travelers are fetched
     const [travelers, setTravelers] = useState([]);
-
+    // Didn't have time but wanted to fetch randomly generated people's data to display as travels on the homepage join us section
     // useEffect(() => {
     //     // setTravelers(getAllTravelers());
     //     setIsLoaded(true);

@@ -29,17 +29,15 @@ function App() {
         }
     ];
 
-    // Routeriga peaks olema siin vaid HeaderComponent ja siis routeri stackis pealmine
     return (
       <Router>
           <div className="app-wrapper">
               <HeaderComponent />
-              <Switch>
-                  <Route exact path="/"><HomePage /></Route>
-                  <Route path="/planner"><Planner /></Route>
-                  <Route path="/destination"><Destination /></Route>
-              </Switch>
-              <FooterComponent />
+              {/*<Switch>*/}
+              {/*    <Route exact path="/"><HomePage /><FooterComponent /></Route>*/}
+              {/*    <Route path="/planner"><Planner /></Route>*/}
+              {/*    <Route path="/destination"><Destination /></Route>*/}
+              {/*</Switch>*/}
           </div>
       </Router>
     );

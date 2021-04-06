@@ -1,8 +1,8 @@
 import '../styles/FooterComponent.css'
-import facebook from '../logos/facebook.png';
-import twitter from '../logos/twitter.png';
-import instagram from '../logos/instagram.png';
-import googleplus from '../logos/google-plus.png';
+import facebook from '../media/facebook.png';
+import twitter from '../media/twitter.png';
+import instagram from '../media/instagram.png';
+import googleplus from '../media/google-plus.png';
 
 const FooterComponent = () => {
     return (

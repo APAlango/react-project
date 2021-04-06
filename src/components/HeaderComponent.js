@@ -1,15 +1,16 @@
-import '../styles/HeaderComponent.css'
+import "../styles/HeaderComponent.css"
 import {Link} from "react-router-dom";
 
 const HeaderComponent = () => {
+
     return (
-        <div className="navbar">
+        <div className="navbar black">
             <div className="navbar-left">
                 <div className="brand">
                     <Link to="/">TravelWiser</Link>
                 </div>
             </div>
-            <div className="navbar-right">
+            <div className="navbar-right black">
                 <div className="navbar-list-item">
                     <Link to="/destination">Find destination</Link>
                 </div>
